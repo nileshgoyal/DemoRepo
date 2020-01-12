@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Test Suite execution is start Sun Jan 12 09:25:03 IST 2020]]>
+    </line>
+    <line>
+      <![CDATA[URL is navigated]]>
+    </line>
+    <line>
+      <![CDATA[Home Page title is verified]]>
+    </line>
+    <line>
+      <![CDATA[login Script is passed ]]>
+    </line>
+    <line>
+      <![CDATA[Browser closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35329" started-at="2020-01-12T09:25:03 IST" finished-at="2020-01-12T09:25:39 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="35329" started-at="2020-01-12T09:25:03 IST" finished-at="2020-01-12T09:25:39 IST">
+      <class name="com.actitime.scripts.LoginTest">
+        <test-method status="PASS" signature="preCond(java.lang.String, java.lang.String)[pri:0, instance:com.actitime.scripts.LoginTest@965684]" name="preCond" is-config="true" duration-ms="17379" started-at="2020-01-12T09:25:04 IST" finished-at="2020-01-12T09:25:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[http://127.0.0.1/login.do]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[URL is navigated]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCond -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.actitime.scripts.LoginTest@965684]" name="login" duration-ms="16650" started-at="2020-01-12T09:25:21 IST" finished-at="2020-01-12T09:25:38 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Home Page title is verified]]>
+            </line>
+            <line>
+              <![CDATA[login Script is passed ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="postCond()[pri:0, instance:com.actitime.scripts.LoginTest@965684]" name="postCond" is-config="true" duration-ms="1103" started-at="2020-01-12T09:25:38 IST" finished-at="2020-01-12T09:25:39 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCond -->
+      </class> <!-- com.actitime.scripts.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
